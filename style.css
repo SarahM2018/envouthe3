@@ -112,7 +112,9 @@ footer {
 
 }
 
-@media screen and (min-width: 480px) {
-  #leftsidebar {width: 200px; float: left;}
-    #main {margin-left: 216px;}
+@media screen and (max-width: 480px) {
+  .menu-demo2 a {
+    padding: 10px 40px;
+    font-size: 26px;
+  }
 }
